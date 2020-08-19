@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BicycleRent.Web", "BicycleRent\BicycleRent.Web.csproj", "{6A607FC4-57FC-494A-8F65-D9C424BDF4FD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9E92D6D-5116-4AD8-8F68-1592EF92E24E} = {D9E92D6D-5116-4AD8-8F68-1592EF92E24E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BicycleRent.DAL", "BicycleRent.Data\BicycleRent.DAL.csproj", "{C539A17C-2329-4F4E-B15A-8476967C9E29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BicycleRent.BL", "BicycleRent.BL\BicycleRent.BL.csproj", "{D9E92D6D-5116-4AD8-8F68-1592EF92E24E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A607FC4-57FC-494A-8F65-D9C424BDF4FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A607FC4-57FC-494A-8F65-D9C424BDF4FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A607FC4-57FC-494A-8F65-D9C424BDF4FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A607FC4-57FC-494A-8F65-D9C424BDF4FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C539A17C-2329-4F4E-B15A-8476967C9E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C539A17C-2329-4F4E-B15A-8476967C9E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C539A17C-2329-4F4E-B15A-8476967C9E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C539A17C-2329-4F4E-B15A-8476967C9E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E92D6D-5116-4AD8-8F68-1592EF92E24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E92D6D-5116-4AD8-8F68-1592EF92E24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E92D6D-5116-4AD8-8F68-1592EF92E24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E92D6D-5116-4AD8-8F68-1592EF92E24E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C55ED29-3D99-4C82-BA55-CDA93863D9CD}
+	EndGlobalSection
+EndGlobal
