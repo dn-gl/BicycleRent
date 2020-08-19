@@ -55,7 +55,6 @@ namespace BicycleRent.Web.Controllers
         {
             Bicycle bicycle = mapper.Map<BicycleApiModel, Bicycle>(model);
             bicycle.Id = Guid.NewGuid();
-            //bicycle.TypeId = model.Type.Id;
 
             return await bicycleService.Add(bicycle);
         }
@@ -64,7 +63,6 @@ namespace BicycleRent.Web.Controllers
         public async Task UpdateRentalStatus(BicycleApiModel model)
         {
             Bicycle bicycle = mapper.Map<BicycleApiModel, Bicycle>(model);
-            bicycle.TypeId = model.Type.Id;
 
             await bicycleService.Update(bicycle);
         }
